@@ -1,10 +1,6 @@
 # Avantos Journey Builder React Coding Challenge
 
-This app fetches the `action-blueprint-graph-get` payload from the mock server and renders:
-
-- An ordered list of form nodes from the DAG
-- A prefill editor for the selected form
-- A modal for choosing data from direct dependencies, transitive dependencies, and global sources
+Built with Vite, React, and TypeScript!
 
 ## Run locally
 
@@ -20,7 +16,6 @@ npm start
 2. Start the client:
 
 ```bash
-cd app
 cp .env.example .env
 npm install
 npm run dev
@@ -28,12 +23,12 @@ npm run dev
 
 3. Open the Vite URL, usually `http://localhost:5173`.
 
-## Scripts
+## Commands
 
 - `npm run dev` starts the app
 - `npm run test` runs the Vitest suite
 
-## Architecture
+## How It’s Organized
 
 - `src/api`
   Fetches the graph data.
